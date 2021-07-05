@@ -1,0 +1,22 @@
+{
+  "name": "localapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradFabian/LocalApp.git"
+  },
+  "author": "Brad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BradFabian/LocalApp/issues"
+  },
+  "homepage": "https://github.com/BradFabian/LocalApp#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
