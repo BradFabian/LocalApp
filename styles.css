@@ -1,3 +1,10 @@
+:root {
+  --color-accent-pink: #f7dad9;
+  --color-cream: #fff5da;
+  --color-light-blue: #b5eaea;
+  --color-brown: #edf6e5;
+}
+
 *,
 *::after,
 *::before {
@@ -9,4 +16,54 @@
 html {
   box-sizing: inherit;
   font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  background-color: var(--color-light-blue);
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 5vh;
+  align-items: center;
+}
+
+.logo {
+  padding: 0.4em;
+  background: #f38ba0;
+
+  transform: skewX(8deg);
+  color: #36bee8;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Limelight", cursive;
+  text-shadow: 2px 2px rgba(247, 218, 217, 0.871);
+  box-shadow: 10px 10px 2px 1px rgba(0, 8, 255, 0.2);
+  line-height: 1.2;
+  letter-spacing: 2.3px;
+}
+.orange {
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  animation: flicker 1.5s infinite alternate;
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa,
+      0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
 }
