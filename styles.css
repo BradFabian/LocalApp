@@ -132,14 +132,16 @@ button {
 
 .col-1 {
   border: solid;
-  padding: 2rem;
+  padding: 10rem;
   margin: 1rem;
   text-align: inherit;
+  box-shadow: 10px 10px 2px 1px rgba(0, 8, 255, 0.2);
 }
 
 .col-2 {
   border: solid;
-  padding: 2rem;
+  padding: 10rem;
   margin: 1rem;
   text-align: inherit;
+  box-shadow: 10px 10px 2px 1px rgba(0, 8, 255, 0.2);
 }
